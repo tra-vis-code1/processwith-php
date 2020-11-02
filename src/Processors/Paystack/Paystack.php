@@ -1,6 +1,6 @@
 <?php
 
-namespace ProcessWith\Processors;
+namespace ProcessWith\Processors\Paystack;
 
 use ProcessWith\Processor;
 

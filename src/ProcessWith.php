@@ -131,10 +131,10 @@ class ProcessWith
 
         switch(strtolower($this->processor)) {
             case 'paystack':
-                $transaction = new Paystack\Transaction($this->secretKey);
+                $transaction = new Processors\Paystack\Transaction($this->secretKey);
             break;
             case 'flutterwave':
-                $transaction = new Ravepay\Transaction($this->secretKey);
+                $transaction = new Processors\Flutterwave\Transaction($this->secretKey);
             break;
             default:
         }
